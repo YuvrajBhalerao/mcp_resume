@@ -7,7 +7,7 @@ import markdownify
 from mcp import ErrorData, McpError
 from mcp.server.auth.provider import AccessToken
 from mcp.types import INTERNAL_ERROR, INVALID_PARAMS, TextContent
-from openai import BaseModel
+from pydantic import BaseModel
 from pydantic import AnyUrl, Field
 import readabilipy
 from pathlib import Path
