@@ -5,3 +5,4 @@ httpx
 pydantic
 pypdf
 python-docx
+gunicorn
